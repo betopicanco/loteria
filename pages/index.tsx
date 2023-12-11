@@ -15,7 +15,7 @@ const getLotericNumbers = (quantity: number, max: number): number[] => {
     }
   }
 
-  return lotericNumbers;
+  return lotericNumbers.sort();
 }
 
 export default function Home() {
